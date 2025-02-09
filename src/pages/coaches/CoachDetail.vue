@@ -11,6 +11,7 @@
         <h2>Interested? Reach out now!</h2>
         <base-button link :to="contactLink" mode="outline">Contact</base-button>
       </header>
+      <router-view></router-view>
     </base-card>
   </section>
   <section>
@@ -24,7 +25,6 @@
       <p>{{ description }}</p>
     </base-card>
   </section>
-  <router-view></router-view>
 </template>
 
 <script>
